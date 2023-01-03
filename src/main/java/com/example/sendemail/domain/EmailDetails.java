@@ -1,0 +1,16 @@
+package com.example.sendemail.domain;
+
+import lombok.*;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
+public class EmailDetails {
+
+    private String recipient;
+    private String msgBody;
+    private String subject;
+    private String attachment;
+}
